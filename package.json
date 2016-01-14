@@ -1,0 +1,26 @@
+{
+  "name": "devdocs-electron",
+  "version": "1.0.0",
+  "description": "An electrion wrapper for devdocs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaze13/devdocs-electron.git"
+  },
+  "keywords": [
+    "Electron",
+    "devdocs",
+  ],
+  "author": "kaze13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaze13/devdocs-electron/issues"
+  },
+  "homepage": "https://github.com/kaze13/devdocs-electron/issues",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
