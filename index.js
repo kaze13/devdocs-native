@@ -53,10 +53,10 @@ class Preference extends Component {
         <div className="setting-grp">
           <Checkbox ref={(ref)=>this.startupCheckbox = ref} checked={this.state.setting.autoStartup}
                     onCheck={(e, checked)=>this.handleStartupChange(e,checked)}
-                    label="Startup at login"/>
+                    label="Lanuch Devdocs at login"/>
           <TextField ref={(ref)=>this.shortcutInput = ref} onChange={(e)=>this.handleShortcutChange(e)}
                      hintText="e.g. ctrl+esc, alt+s" value={this.state.setting.shortcut}
-                     floatingLabelText="Input key binding here"/>
+                     floatingLabelText="Global search shortcut"/>
         </div>
         <div className="btn-grp">
           <FlatButton label="cancel" onClick={(e)=>this.handleCancel()}/>
