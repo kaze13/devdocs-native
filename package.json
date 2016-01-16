@@ -21,6 +21,19 @@
   },
   "homepage": "https://github.com/kaze13/devdocs-electron/issues",
   "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+    "electron-prebuilt": "^0.36.0",
+    "babel-core": "^5.6.18",
+    "babel-loader": "^5.1.4",
+    "babel-plugin-react-transform": "^1.1.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.11"
+  },
+  "dependencies": {
+    "material-ui": "^0.14.2",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-tap-event-plugin": "^0.2.1",
+    "webpack-target-electron-renderer": "^0.4.0"
   }
 }
