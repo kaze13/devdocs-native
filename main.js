@@ -82,7 +82,7 @@ function showWindow() {
 }
 
 function toggleWindow() {
-  if (local.mainWindow.isVisible()) {
+  if (local.mainWindow && local.mainWindow.isVisible()) {
     local.mainWindow.hide()
   } else {
     showWindow()
